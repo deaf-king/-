@@ -1,0 +1,510 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Attendance.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Attendance.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Attendance"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Attendance 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2002",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_ATTENDANCE_DIALOG DIALOGEX 0, 0, 320, 173
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "考勤管理系统"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,132,45,55,55
+    PUSHBUTTON      "设置",IDC_BTN_CONFIG,73,110,50,14,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "出勤记录",IDC_BTN_RECORD,135,110,50,14,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "统计",IDC_BTN_STATISTICS,197,110,50,14,BS_FLAT | NOT 
+                    WS_TABSTOP
+    LTEXT           "考勤管理系统",IDC_STATIC_HEAD,124,21,115,15
+    LTEXT           "版权所有：******公司，2002年",IDC_STATIC,14,151,113,8
+    PUSHBUTTON      "重新登录",IDC_BTN_RELOGIN,167,148,50,14
+    PUSHBUTTON      "退出",IDC_BTN_EXIT,233,148,50,14
+END
+
+IDD_DLG_LOGIN DIALOG DISCARDABLE  0, 0, 168, 109
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登录"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDT_USER,62,43,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_PASSWD,62,60,50,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "登录",IDOK,26,80,50,14
+    PUSHBUTTON      "取消",IDCANCEL,91,80,50,14
+    LTEXT           "考勤管理系统登录",IDC_STATIC_LOGINTEXT,36,6,115,15
+    LTEXT           "ODBC数据源",IDC_STATIC,17,29,41,8
+    COMBOBOX        IDC_CMB_DSN,62,27,63,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "用户名",IDC_STATIC,33,46,25,8
+    LTEXT           "密码",IDC_STATIC,41,63,17,8
+END
+
+IDD_DLG_WORKPLAN DIALOG DISCARDABLE  0, 0, 172, 117
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "上下班时间设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "修改",IDC_WORKPLAN_MODIFY,22,90,59,14
+    LTEXT           "上午上班时间：",IDC_STATIC,19,14,57,8
+    CONTROL         "DateTimePicker1",IDC_WORKSTAT_DATETIMEPICKER1,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,81,10,63,15
+    LTEXT           "中午下班时间：",IDC_STATIC,19,31,57,8
+    CONTROL         "DateTimePicker1",IDC_WORKSTAT_DATETIMEPICKER2,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,81,27,63,15
+    LTEXT           "下午上班时间：",IDC_STATIC,19,49,57,8
+    CONTROL         "DateTimePicker1",IDC_WORKSTAT_DATETIMEPICKER3,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,81,45,63,15
+    LTEXT           "下午下班时间：",IDC_STATIC,19,67,57,8
+    CONTROL         "DateTimePicker1",IDC_WORKSTAT_DATETIMEPICKER4,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,81,63,63,15
+    DEFPUSHBUTTON   "恢复默认设置",IDC_WORKPLAN_RESET,91,90,59,14
+    GROUPBOX        "",IDC_STATIC,7,2,158,81
+END
+
+IDD_DLG_ATTENDANCE DIALOG DISCARDABLE  0, 0, 339, 305
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "考勤修改"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "时间范围",IDC_CHK_SEEKBYTIME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,72,25,48,10
+    CONTROL         "员工",IDC_CHK_SEEKBYPERSON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,72,40,32,10
+    LTEXT           "从",IDC_STATIC,133,25,9,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,146,21,52,15
+    LTEXT           "至",IDC_STATIC,203,25,9,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,216,21,52,15
+    LTEXT           "员工号：",IDC_STATIC,112,41,33,8
+    EDITTEXT        IDC_EDT_SEEKPERSONID,146,37,52,14,ES_AUTOHSCROLL
+    LTEXT           "姓名：",IDC_STATIC,201,40,25,8
+    EDITTEXT        IDC_EDT_SEEKPERSONNAME,228,37,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "记录检索条件",IDC_STATIC,24,10,290,50
+END
+
+IDD_PROPPAGE_1 DIALOG DISCARDABLE  0, 0, 327, 217
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "添加修改出勤记录"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "出入时间：",IDC_STATIC,13,23,41,8
+    EDITTEXT        IDC_EDT_IOTIME,55,20,68,14,ES_AUTOHSCROLL
+    LTEXT           "部门：",IDC_STATIC,134,23,25,8
+    EDITTEXT        IDC_EDT_DEPARTID,160,20,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_DEPARTNAME,183,20,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "员工号：",IDC_STATIC,236,23,33,8
+    EDITTEXT        IDC_EDT_PERSONID,270,20,40,14,ES_AUTOHSCROLL
+    LTEXT           "姓名：",IDC_STATIC,240,50,25,8
+    EDITTEXT        IDC_EDT_PERSONNAME,270,46,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "出",IDC_RADIO_OUT,"Button",BS_AUTORADIOBUTTON,20,48,24,
+                    10
+    CONTROL         "入",IDC_RADIO_IN,"Button",BS_AUTORADIOBUTTON,53,48,24,
+                    10
+    GROUPBOX        "",IDC_STATIC,11,38,70,26
+    PUSHBUTTON      "全部员工",IDC_BTN_ADDALL,85,42,50,14
+    PUSHBUTTON      "部门员工",IDC_BTN_ADDDEPART,135,42,50,14
+    PUSHBUTTON      "单个员工",IDC_BTN_ADDPERSON,185,42,50,14
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH,
+                    85,57,150,8
+    GROUPBOX        "添加记录",IDC_STATIC,7,9,313,64
+    LTEXT           "出勤记录列表：",IDC_STATIC,8,80,57,8
+    PUSHBUTTON      "删除所选记录",IDC_BTN_DELETEATTEND,196,77,62,14
+    PUSHBUTTON      "按条件检索",IDC_BTN_SEEKIO,258,77,62,14
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,95,313,115
+END
+
+IDD_PROPPAGE_2 DIALOG DISCARDABLE  0, 0, 327, 217
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "加班记录"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "日期：",IDC_STATIC,29,23,25,8
+    LTEXT           "员工号：",IDC_STATIC,139,23,33,8
+    EDITTEXT        IDC_EDT_OVERTIME_PERSONID,173,20,40,14,ES_AUTOHSCROLL
+    LTEXT           "员工姓名：",IDC_STATIC,131,47,41,8
+    EDITTEXT        IDC_EDT_OVERTIME_PERSONNAME,173,43,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "添加记录",IDC_STATIC,7,9,313,64
+    LTEXT           "加班记录列表：",IDC_STATIC,8,80,57,8
+    PUSHBUTTON      "删除所选记录",IDC_BTN_OVERTIME_DELETEATTEND,196,77,62,
+                    14
+    PUSHBUTTON      "按条件检索",IDC_BTN_OVERTIME_SEEKIO,258,77,62,14
+    CONTROL         "List1",IDC_LIST2,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,95,313,115
+    CONTROL         "DateTimePicker1",IDC_OVERTIME_DATETIMEPICKER,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,56,19,52,
+                    15
+    LTEXT           "加班时间：",IDC_STATIC,13,47,41,8
+    EDITTEXT        IDC_EDT_OVERTIME_HOUR,55,44,33,14,ES_AUTOHSCROLL
+    LTEXT           "小时",IDC_STATIC,90,47,17,8
+    PUSHBUTTON      "添加",IDC_BTN_OVERTIME_ADD,239,33,50,14
+END
+
+IDD_PROPPAGE_3 DIALOG DISCARDABLE  0, 0, 327, 217
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "请假记录"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "时间范围：",IDC_STATIC,12,23,41,8
+    LTEXT           "员工号：",IDC_STATIC,20,41,33,8
+    EDITTEXT        IDC_EDT_LEAVE_PERSONID,54,38,40,14,ES_AUTOHSCROLL
+    LTEXT           "员工姓名：",IDC_STATIC,101,41,41,8
+    EDITTEXT        IDC_EDT_LEAVE_PERSONNAME,143,38,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "添加记录",IDC_STATIC,7,9,313,64
+    LTEXT           "出勤记录列表：",IDC_STATIC,8,80,57,8
+    PUSHBUTTON      "删除所选记录",IDC_BTN_LEAVE_DELETEATTEND,196,77,62,14
+    PUSHBUTTON      "按条件检索",IDC_BTN_LEAVE_SEEKIO,258,77,62,14
+    CONTROL         "List1",IDC_LIST3,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,95,313,115
+    PUSHBUTTON      "添加",IDC_BTN_LEAVE_ADD,139,55,50,14
+    EDITTEXT        IDC_EDT_LEAVE_STARTTIME,54,20,68,14,ES_AUTOHSCROLL
+    LTEXT           "至",IDC_STATIC,126,23,9,8
+    EDITTEXT        IDC_EDT_LEAVE_ENDTIME,137,20,68,14,ES_AUTOHSCROLL
+    LTEXT           "请假原因：",IDC_STATIC,215,21,41,8
+    EDITTEXT        IDC_EDT_LEAVE_REASON,215,33,98,34,ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE_4 DIALOG DISCARDABLE  0, 0, 327, 217
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "出差记录"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "时间范围：",IDC_STATIC,12,23,41,8
+    LTEXT           "员工号：",IDC_STATIC,20,41,33,8
+    EDITTEXT        IDC_EDT_ERRAND_PERSONID,54,38,40,14,ES_AUTOHSCROLL
+    LTEXT           "员工姓名：",IDC_STATIC,101,41,41,8
+    EDITTEXT        IDC_EDT_ERRAND_PERSONNAME,143,38,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "添加记录",IDC_STATIC,7,9,313,64
+    LTEXT           "出勤记录列表：",IDC_STATIC,8,80,57,8
+    PUSHBUTTON      "删除所选记录",IDC_BTN_ERRAND_DELETEATTEND,196,77,62,14
+    PUSHBUTTON      "按条件检索",IDC_BTN_ERRAND_SEEKIO,258,77,62,14
+    CONTROL         "List1",IDC_LIST4,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,95,313,115
+    PUSHBUTTON      "添加",IDC_BTN_ERRAND_ADD,139,55,50,14
+    EDITTEXT        IDC_EDT_ERRAND_STARTTIME,54,20,68,14,ES_AUTOHSCROLL
+    LTEXT           "至",IDC_STATIC,126,23,9,8
+    EDITTEXT        IDC_EDT_ERRAND_ENDTIME,137,20,68,14,ES_AUTOHSCROLL
+    LTEXT           "具体描述：",IDC_STATIC,215,21,41,8
+    EDITTEXT        IDC_EDT_ERRAND_DESCRIPTION,215,33,98,34,ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_DLG_STAT DIALOG DISCARDABLE  0, 0, 309, 205
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "考勤统计"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "统计年月：",IDC_STATIC,18,19,41,8
+    EDITTEXT        IDC_STAT_EDT_TIME,60,16,53,14,ES_AUTOHSCROLL
+    LTEXT           "时间范围从",IDC_STATIC,16,37,41,8
+    CONTROL         "DateTimePicker1",IDC_STAT_DATETIMEPICKER_STARTTIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,60,33,54,
+                    15
+    LTEXT           "至",IDC_STATIC,118,37,9,8
+    CONTROL         "DateTimePicker1",IDC_STAT_DATETIMEPICKER_ENDTIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,129,33,
+                    54,15
+    CONTROL         "Progress1",IDC_STAT_PROGRESS,"msctls_progress32",
+                    PBS_SMOOTH,189,33,103,14
+    PUSHBUTTON      "统计",IDC_STAT_BTN_STAT,215,14,50,14
+    GROUPBOX        "月度统计",IDC_STATIC,7,6,295,53
+    CONTROL         "年月",IDC_STAT_CHK_SEEKBYTIME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,29,74,32,10
+    CONTROL         "员工",IDC_STAT_CHK_SEEKBYPERSON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,29,90,32,10
+    EDITTEXT        IDC_STAT_EDT_SEEKTIME,67,72,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_STAT_EDT_SEEKPERSONID,67,88,53,14,ES_AUTOHSCROLL
+    LTEXT           "姓名：",IDC_STATIC,136,90,25,8
+    EDITTEXT        IDC_STAT_EDT_SEEKPERSONNAME,162,88,53,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "检索",IDC_STAT_BTN_SEEK,237,79,50,14
+    GROUPBOX        "记录检索条件",IDC_STATIC,7,61,295,47
+    CONTROL         "List1",IDC_STAT_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,115,295,83
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Attendance Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Attendance\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Attendance.EXE\0"
+            VALUE "ProductName", "Attendance 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ATTENDANCE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_DLG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 161
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_DLG_WORKPLAN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        BOTTOMMARGIN, 110
+    END
+
+    IDD_DLG_ATTENDANCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+
+    IDD_PROPPAGE_1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 320
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_PROPPAGE_2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 320
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_PROPPAGE_3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 320
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_PROPPAGE_4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 320
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_DLG_STAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DLG_LOGIN DLGINIT
+BEGIN
+    IDC_CMB_DSN, 0x403, 6, 0
+0x494d, 0x4453, 0x0042, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_ATTENDANCE   BITMAP  DISCARDABLE     "res\\attendance.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Attendance(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Attendance.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

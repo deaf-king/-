@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Personnel - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Personnel.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\Personnel.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB1F8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Personnel.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\AddView.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\ChangeView.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\ChildFrm.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\ChildView.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\Crypt.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\LoginDlg.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\MainFrm.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\Personnel.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\SearchView.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\TheChildFrame.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB1F8.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB1F9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Personnel.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第05章人事管理系统\Code\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB1F9.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB1FA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Personnel.pdb" /debug /machine:I386 /out:"Debug/Personnel.exe" /pdbtype:sept 
+".\Debug\AddView.obj"
+".\Debug\ChangeView.obj"
+".\Debug\ChildFrm.obj"
+".\Debug\ChildView.obj"
+".\Debug\Crypt.obj"
+".\Debug\LoginDlg.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Personnel.obj"
+".\Debug\SearchView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TheChildFrame.obj"
+".\Debug\Personnel.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB1FA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddView.cpp
+ChangeView.cpp
+ChildFrm.cpp
+ChildView.cpp
+Crypt.cpp
+LoginDlg.cpp
+MainFrm.cpp
+Personnel.cpp
+SearchView.cpp
+TheChildFrame.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Personnel.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

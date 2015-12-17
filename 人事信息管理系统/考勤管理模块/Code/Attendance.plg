@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Attendance - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Attendance.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\Attendance.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB4FE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Attendance.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\AttDlg.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\Attendance.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\AttendanceDlg.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\AttendanceRS.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\CounterRS.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\Crypt.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\DepartRS.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\ErrandRS.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\LeaveRS.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\LoginDlg.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\OvertimeRS.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\Page1.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\Page2.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\Page3.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\Page4.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\PersonRS.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\StatDlg.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\StatRS.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\Test.cpp"
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\WorkplanDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB4FE.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB4FF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Attendance.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\资料\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\Visual C++ 6.0数据库系统开发实例导航 光盘源码 TP31 1023\TP31\第06章考勤管理系统\Code\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB4FF.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB50F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Attendance.pdb" /debug /machine:I386 /out:"Debug/Attendance.exe" /pdbtype:sept 
+".\Debug\AttDlg.obj"
+".\Debug\Attendance.obj"
+".\Debug\AttendanceDlg.obj"
+".\Debug\AttendanceRS.obj"
+".\Debug\CounterRS.obj"
+".\Debug\Crypt.obj"
+".\Debug\DepartRS.obj"
+".\Debug\ErrandRS.obj"
+".\Debug\LeaveRS.obj"
+".\Debug\LoginDlg.obj"
+".\Debug\OvertimeRS.obj"
+".\Debug\Page1.obj"
+".\Debug\Page2.obj"
+".\Debug\Page3.obj"
+".\Debug\Page4.obj"
+".\Debug\PersonRS.obj"
+".\Debug\StatDlg.obj"
+".\Debug\StatRS.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Test.obj"
+".\Debug\WorkplanDlg.obj"
+".\Debug\Attendance.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB50F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AttDlg.cpp
+Attendance.cpp
+AttendanceDlg.cpp
+AttendanceRS.cpp
+CounterRS.cpp
+Crypt.cpp
+DepartRS.cpp
+ErrandRS.cpp
+LeaveRS.cpp
+LoginDlg.cpp
+OvertimeRS.cpp
+Page1.cpp
+Page2.cpp
+Page3.cpp
+Page4.cpp
+PersonRS.cpp
+StatDlg.cpp
+StatRS.cpp
+Test.cpp
+WorkplanDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Attendance.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
